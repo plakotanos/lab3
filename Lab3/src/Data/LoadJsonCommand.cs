@@ -21,11 +21,11 @@ public class LoadJsonCommand<T>(T t) : ICommand
             using var fs = File.OpenRead(path);
 
             object? value = JsonSerializer.Deserialize(fs, typeof(T))
-                 ?? throw new ExecutionException("Could not load state from file.");
+                            ?? throw new ExecutionException("Could not load state from file.");
 
             t.LoadFrom((T)value);
         }
-        catch (SystemException e)
+        catch (Exception e) when (e is SystemException or JsonException)
         {
             throw new ExecutionException(e.Message);
         }

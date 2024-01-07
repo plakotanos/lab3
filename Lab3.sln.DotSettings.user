@@ -2,4 +2,22 @@
 	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=SpellingFilter/@EntryIndexedValue">On</s:String>
 	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=NamingFilter/@EntryIndexedValue">On</s:String>
 	<s:String x:Key="/Default/CodeInspection/PencilsConfiguration/FiltersState/=CodeStyle/@EntryIndexedValue">On</s:String>
-	<s:Boolean x:Key="/Default/Environment/InlayHints/GeneralInlayHintsOptions/EnableInlayHints/@EntryValue">True</s:Boolean></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/Environment/InlayHints/GeneralInlayHintsOptions/EnableInlayHints/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0a3322a3_002D76f1_002D4190_002D8311_002D7d48e8e46b8a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="LoadCommand_ReadObjectNoErrors" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::71F5971E-85CC-4FC2-830E-E976F06BA9F9::net8.0::Lab3Test.JsonTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::71F5971E-85CC-4FC2-830E-E976F06BA9F9::net8.0::Lab3Test.XmlTests.SaveCommand_SavesObjectCorrectly&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::71F5971E-85CC-4FC2-830E-E976F06BA9F9::net8.0::Lab3Test.XmlTests.LoadCommand_LoadsObjectCorrectly&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::71F5971E-85CC-4FC2-830E-E976F06BA9F9::net8.0::Lab3Test.XmlTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=24663e81_002D7b10_002D4da5_002Daa0b_002D33850db9800f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LoadJsonCommand_LoadsDataIntoObject" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::9CF7E1C9-376C-43AE-9CF0-EF3DB187F1AA::net8.0::Lab3Test.JsonTests.LoadJsonCommand_LoadsDataIntoObject&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=fd8d9cd2_002Da8b4_002D4a01_002D841a_002D14598a710439/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="LoadJsonCommand_LoadsDataIntoObject #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;NUnit3x::71F5971E-85CC-4FC2-830E-E976F06BA9F9::net8.0::Lab3Test.JsonTests.LoadCommand_ReadObjectNoErrors&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
